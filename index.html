@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b16"><title>Neon Ronin — Midnight Protocol</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<header><a class="brand" href="./"><span class="sigil">斬</span> NEON RONIN<span class="edition"> / PLAYABLE PROTOTYPE</span></a><button id="sound" aria-pressed="false">SOUND OFF</button></header>
+<section class="intro"><div><p class="eyebrow">01 / MIDNIGHT PROTOCOL</p><h1>The city sleeps.<br><em>You don’t.</em></h1></div><p class="description">One blade. A city full of shadows.<br>Cross the rooftops of Sector 07 and reach<br>the extraction gate before the night takes you.</p></section>
+<section class="stage" aria-label="Neon Ronin game"><canvas id="game" width="1280" height="640" tabindex="0" aria-label="Side-scrolling ninja action game. A and D to move, Space to jump, J to slash, K to throw stars, P to pause."></canvas>
+<div id="overlay" class="overlay"><div class="overlay-card"><p class="eyebrow" id="overlay-kicker">SECTOR 07 · 02:14 AM</p><h2 id="overlay-title">Become the shadow.</h2><p id="overlay-copy">Cut through the skyline. Reach the cyan gate.<br>Patrols, drones, and armored gunners stand in your way.</p><button id="start" class="primary">ENTER THE NIGHT <span>→</span></button><p class="small">Headphones recommended · Keyboard or touch</p></div></div>
+<button id="pause" class="pause" aria-label="Pause game">Ⅱ</button></section>
+<section class="controls" aria-label="Controls"><div><kbd>A</kbd><kbd>D</kbd><span>MOVE</span></div><div><kbd>SPACE</kbd><span>DOUBLE JUMP</span></div><div><kbd>J</kbd><span>SWORD</span></div><div><kbd>K</kbd><span>SHURIKEN</span></div><div><kbd>P</kbd><span>PAUSE</span></div><button id="restart">↻ RESTART</button></section>
+<div class="touch" aria-label="Touch controls"><button data-key="ArrowLeft" aria-label="Move left">◀</button><button data-key="ArrowRight" aria-label="Move right">▶</button><button data-key="Space">JUMP</button><button data-key="KeyJ">SLASH</button><button data-key="KeyK">STAR</button></div>
+<footer><span><i></i> SINGLE LEVEL / ROOFTOP DISTRICT</span><span>雨の街 <b>•</b> A SMALL EXPERIMENT IN THE DARK</span></footer>
+</main><script type="module" src="game.js"></script></body></html>
